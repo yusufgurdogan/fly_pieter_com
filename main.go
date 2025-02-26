@@ -397,7 +397,7 @@ func main() {
 	// Set up HTTP handler.
 	http.HandleFunc("/", handleWebSocket)
 
-	// Start the plain HTTP server on 127.0.0.1:8080.
-	infoLog.Printf("Server running on ws://127.0.0.1:8080")
-	log.Fatal(http.ListenAndServe("127.0.0.1:8080", nil))
+	// Start the plain HTTP server on 127.0.0.1:8156.
+	infoLog.Printf("Server running on ws://127.0.0.1:8156")
+	log.Fatal(http.ListenAndServe("127.0.0.1:8156", nil))
 }
